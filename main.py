@@ -1,4 +1,3 @@
-import os
 from flask import Flask, request, jsonify, abort
 from datetime import datetime
 
