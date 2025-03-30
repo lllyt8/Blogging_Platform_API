@@ -28,4 +28,4 @@ class Post(Base):
     title = Column(String)
     content = Column(String)
     user_id = Column(Integer, ForeignKey('users.id'))  # users是users的数据库表名
-    user = relationship("User", back_populates="posts")  # 这里提供了user.
+    user = relationship("User", back_populates="posts") 
